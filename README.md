@@ -1,3 +1,3 @@
 #This a Read Me File
 
-This is a simple HTML file about my skills as a developer.
+Link to blog post - https://wordpress.com/post/oseuncodelagos.wordpress.com/71
