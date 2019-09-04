@@ -29,8 +29,13 @@
                 <h3>GENDER:</h3> MALE
                 <h3>NATIONALITY:</h3> NIGERIAN
                 <h3>UNIVERSITY:</h3> CALEB UNIVERSITY
+                <h3>OCCUPATION:</h3><span id="dots">...</span><span id="more">Web Developer(Frontend), Teacher & Student
+                <h3>MARITAL STATUS:</h3> Single
+                <h3>FAVORITE PROGRAMMING LANG:</h3> PYTHON & JAVA
+                <h3>RELIGION:</h3> CHRISTIAN
+                </span>
               </p>
-              <a href="#">Read More</a>
+              <button type="button" id="read" onclick="read()">Read More</button>
             </div>
           </div>
 
@@ -62,18 +67,39 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <a href="https://twitter.com/It_iz_I"
-        ><img src="icons8-twitter-50.png" alt="Twitter"
-      /></a>
-      <a href="https://www.facebook.com/seuniyadi"
-        ><img src="icons8-facebook-50.png" alt="Facebook"
-      /></a>
-      <a href="#"><img src="icons8-whatsapp-50.png" alt="WhatsApp"/></a>
-      <a href="https://github.com/CornerstoneII"
-        ><img src="icons8-git-48 (1).png" alt="Git"
-      /></a>
-      <h6>Contact</h6>
+    <div class="contact-me">
+      <div class="title">
+        <h1>Contact Me</h1>
+      </div>
+        <div class="form">
+          <div class="form-items">
+              <input type="text" class="input" minlength="4" placeholder="Full Name" required>
+          </div>
+          <div class="form-items">
+            <input type="email" class="input"  placeholder="Email Address" required>
+        </div>
+        <div class="form-items">
+          <textarea class="input message" minlength="20" cols="30" rows="10" placeholder="Enter a Message......"></textarea>
+      </div>
+        </div>
+        <div class="btn">
+          submit
+        </div>
+        <div class="social-icons">
+            <div class="facebook">
+                <a href="https://www.facebook.com/seuniyadi/"><img src="icons8-facebook-50.png" alt=""></a>
+            </div>
+            <div class="twitter">
+                <a href="https://twitter.com/It_iz_I"><img src="icons8-twitter-50.png" alt=""></a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/CornerstoneII"><img src="icons8-github-50.png" alt=""></a>
+            </div>
+            <div class="google">
+                <a href="https://seunmyles@gmail.com"><img src="icons8-google-50.png" alt=""></a>
+            </div>
+        </div>
     </div>
+    <script src="AboutMe.js"></script>
   </body>
 </html>
