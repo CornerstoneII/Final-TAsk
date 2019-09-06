@@ -65,6 +65,9 @@ body {
   margin-bottom: 20px;
 }
 /*About a*/
+.about > button:focus {
+  outline: 0;
+}
 .about > button {
   display: inline-block;
   color: #e67e22;
@@ -74,6 +77,7 @@ body {
   padding: 8px 40px;
   transition: 0.4s linear;
   font-size: 15px;
+  background-color: #f1f1f1;
 }
 /*Add Hover Effect on the Read More*/
 .about > button:hover {
